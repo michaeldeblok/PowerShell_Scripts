@@ -30,4 +30,4 @@ foreach ($group in $groups) {
 $end = Get-Date
 Write-Host $end -ForeGroundColor Cyan
 
-$end-$start | ft -AutoSize
+$end-$start | Format-Table -AutoSize
